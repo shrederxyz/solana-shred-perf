@@ -1,0 +1,24 @@
+[package]
+name = "solana-shred-perf"
+version = "0.1.0"
+edition = "2021"
+description = "Packet-level Solana shred latency benchmark via libpcap"
+license = "MIT"
+repository = "https://github.com/shrederxyz/solana-shred-perf"
+homepage = "https://github.com/shrederxyz/solana-shred-perf"
+documentation = "https://github.com/shrederxyz/solana-shred-perf#readme"
+readme = "README.md"
+authors = ["Shreder"]
+
+[dependencies]
+log = "0.4"
+pretty_env_logger = "0.5"
+clap = { version = "4.2.0", features = ["derive"] }
+solana-ledger = "2.3.4"
+anyhow = "1.0.98"
+pcap = "2"
+etherparse = "0.16"
+solana-hash = "2.3.0"
+solana-pubkey = "2.4.0"
+solana-rpc-client = "2.3.13"
+solana-signature = { version = "2.3.0", features = ["verify"] }

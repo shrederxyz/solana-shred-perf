@@ -1,0 +1,23 @@
+# Rust / Cargo
+target/
+debug/
+**/*.rs.bk
+# Cargo.lock is committed: this is a binary, not a library.
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
